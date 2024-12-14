@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		DD5BF63A2D0D717100A19582 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD5BF61D2D0D716F00A19582 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD5BF6242D0D716F00A19582;
+			remoteInfo = SmartAlarmClock;
+		};
+		DD5BF6442D0D717100A19582 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD5BF61D2D0D716F00A19582 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD5BF6242D0D716F00A19582;
+			remoteInfo = SmartAlarmClock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD5BF6252D0D716F00A19582 /* SmartAlarmClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartAlarmClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5BF6392D0D717100A19582 /* SmartAlarmClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartAlarmClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5BF6432D0D717100A19582 /* SmartAlarmClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartAlarmClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DD5BF64B2D0D717100A19582 /* Exceptions for "SmartAlarmClock" folder in "SmartAlarmClock" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = DD5BF6242D0D716F00A19582 /* SmartAlarmClock */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DD5BF6272D0D716F00A19582 /* SmartAlarmClock */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DD5BF64B2D0D717100A19582 /* Exceptions for "SmartAlarmClock" folder in "SmartAlarmClock" target */,
+			);
+			path = SmartAlarmClock;
+			sourceTree = "<group>";
+		};
+		DD5BF63C2D0D717100A19582 /* SmartAlarmClockTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SmartAlarmClockTests;
+			sourceTree = "<group>";
+		};
+		DD5BF6462D0D717100A19582 /* SmartAlarmClockUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SmartAlarmClockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD5BF6222D0D716F00A19582 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5BF6362D0D717100A19582 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5BF6402D0D717100A19582 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD5BF61C2D0D716F00A19582 = {
+			isa = PBXGroup;
+			children = (
+				DD5BF6272D0D716F00A19582 /* SmartAlarmClock */,
+				DD5BF63C2D0D717100A19582 /* SmartAlarmClockTests */,
+				DD5BF6462D0D717100A19582 /* SmartAlarmClockUITests */,
+				DD5BF6262D0D716F00A19582 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD5BF6262D0D716F00A19582 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD5BF6252D0D716F00A19582 /* SmartAlarmClock.app */,
+				DD5BF6392D0D717100A19582 /* SmartAlarmClockTests.xctest */,
+				DD5BF6432D0D717100A19582 /* SmartAlarmClockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD5BF6242D0D716F00A19582 /* SmartAlarmClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD5BF64C2D0D717100A19582 /* Build configuration list for PBXNativeTarget "SmartAlarmClock" */;
+			buildPhases = (
+				DD5BF6212D0D716F00A19582 /* Sources */,
+				DD5BF6222D0D716F00A19582 /* Frameworks */,
+				DD5BF6232D0D716F00A19582 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DD5BF6272D0D716F00A19582 /* SmartAlarmClock */,
+			);
+			name = SmartAlarmClock;
+			packageProductDependencies = (
+			);
+			productName = SmartAlarmClock;
+			productReference = DD5BF6252D0D716F00A19582 /* SmartAlarmClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD5BF6382D0D717100A19582 /* SmartAlarmClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD5BF6512D0D717100A19582 /* Build configuration list for PBXNativeTarget "SmartAlarmClockTests" */;
+			buildPhases = (
+				DD5BF6352D0D717100A19582 /* Sources */,
+				DD5BF6362D0D717100A19582 /* Frameworks */,
+				DD5BF6372D0D717100A19582 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD5BF63B2D0D717100A19582 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DD5BF63C2D0D717100A19582 /* SmartAlarmClockTests */,
+			);
+			name = SmartAlarmClockTests;
+			packageProductDependencies = (
+			);
+			productName = SmartAlarmClockTests;
+			productReference = DD5BF6392D0D717100A19582 /* SmartAlarmClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD5BF6422D0D717100A19582 /* SmartAlarmClockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD5BF6542D0D717100A19582 /* Build configuration list for PBXNativeTarget "SmartAlarmClockUITests" */;
+			buildPhases = (
+				DD5BF63F2D0D717100A19582 /* Sources */,
+				DD5BF6402D0D717100A19582 /* Frameworks */,
+				DD5BF6412D0D717100A19582 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD5BF6452D0D717100A19582 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DD5BF6462D0D717100A19582 /* SmartAlarmClockUITests */,
+			);
+			name = SmartAlarmClockUITests;
+			packageProductDependencies = (
+			);
+			productName = SmartAlarmClockUITests;
+			productReference = DD5BF6432D0D717100A19582 /* SmartAlarmClockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD5BF61D2D0D716F00A19582 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					DD5BF6242D0D716F00A19582 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					DD5BF6382D0D717100A19582 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = DD5BF6242D0D716F00A19582;
+					};
+					DD5BF6422D0D717100A19582 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = DD5BF6242D0D716F00A19582;
+					};
+				};
+			};
+			buildConfigurationList = DD5BF6202D0D716F00A19582 /* Build configuration list for PBXProject "SmartAlarmClock" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD5BF61C2D0D716F00A19582;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DD5BF6262D0D716F00A19582 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD5BF6242D0D716F00A19582 /* SmartAlarmClock */,
+				DD5BF6382D0D717100A19582 /* SmartAlarmClockTests */,
+				DD5BF6422D0D717100A19582 /* SmartAlarmClockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD5BF6232D0D716F00A19582 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5BF6372D0D717100A19582 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5BF6412D0D717100A19582 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD5BF6212D0D716F00A19582 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5BF6352D0D717100A19582 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5BF63F2D0D717100A19582 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD5BF63B2D0D717100A19582 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD5BF6242D0D716F00A19582 /* SmartAlarmClock */;
+			targetProxy = DD5BF63A2D0D717100A19582 /* PBXContainerItemProxy */;
+		};
+		DD5BF6452D0D717100A19582 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD5BF6242D0D716F00A19582 /* SmartAlarmClock */;
+			targetProxy = DD5BF6442D0D717100A19582 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DD5BF64D2D0D717100A19582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SmartAlarmClock/SmartAlarmClock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartAlarmClock/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartAlarmClock/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fengliudev.SmartAlarmClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD5BF64E2D0D717100A19582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SmartAlarmClock/SmartAlarmClock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartAlarmClock/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartAlarmClock/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fengliudev.SmartAlarmClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD5BF64F2D0D717100A19582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD5BF6502D0D717100A19582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD5BF6522D0D717100A19582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fengliudev.SmartAlarmClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartAlarmClock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmartAlarmClock";
+			};
+			name = Debug;
+		};
+		DD5BF6532D0D717100A19582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fengliudev.SmartAlarmClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartAlarmClock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmartAlarmClock";
+			};
+			name = Release;
+		};
+		DD5BF6552D0D717100A19582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fengliudev.SmartAlarmClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartAlarmClock;
+			};
+			name = Debug;
+		};
+		DD5BF6562D0D717100A19582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fengliudev.SmartAlarmClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartAlarmClock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD5BF6202D0D716F00A19582 /* Build configuration list for PBXProject "SmartAlarmClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5BF64F2D0D717100A19582 /* Debug */,
+				DD5BF6502D0D717100A19582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD5BF64C2D0D717100A19582 /* Build configuration list for PBXNativeTarget "SmartAlarmClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5BF64D2D0D717100A19582 /* Debug */,
+				DD5BF64E2D0D717100A19582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD5BF6512D0D717100A19582 /* Build configuration list for PBXNativeTarget "SmartAlarmClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5BF6522D0D717100A19582 /* Debug */,
+				DD5BF6532D0D717100A19582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD5BF6542D0D717100A19582 /* Build configuration list for PBXNativeTarget "SmartAlarmClockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5BF6552D0D717100A19582 /* Debug */,
+				DD5BF6562D0D717100A19582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD5BF61D2D0D716F00A19582 /* Project object */;
+}
